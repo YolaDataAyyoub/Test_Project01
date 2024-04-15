@@ -50,6 +50,7 @@ date_format_today = f"{date_debut.day}-{mois_abreges[date_debut.month]}"
 day_letter = get_column_letter(df_MaterialJourney.columns.get_loc(date_format_today) + 1)
 print(day_letter)
 
+
 item_range_letter = 'A'
 # Extract the specified range from the DataFrame
 df_material_journey_dump = df_MaterialJourney.iloc[range_start_index-1 :range_end_index-1]
