@@ -12,6 +12,8 @@ from httplib2 import Http
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
+#Commentaire
+
 def sOItemMetabase(JourDebut, JourFin, DC) :
 
     date_debut = ((datetime.now()+timedelta(hours=0)) - timedelta(days=JourDebut)).strftime("%Y-%m-%d")
